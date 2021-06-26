@@ -1,0 +1,9 @@
+[submodule "Studypods v1.0/SP 3/webproject"]
+	path = Studypods v1.0/SP 3/webproject
+	url = https://github.com/Vishakha633/webproject.git
+[submodule "Studypods v1.0/SP 5/ganitt.github.io"]
+	path = Studypods v1.0/SP 5/ganitt.github.io
+	url = https://github.com/cyberskull99297/ganitt.github.io.git
+[submodule "Studypods v1.0/SP 5/Seek-and-Tech"]
+	path = Studypods v1.0/SP 5/Seek-and-Tech
+	url = https://github.com/cyberskull99297/Seek-and-Tech.git
