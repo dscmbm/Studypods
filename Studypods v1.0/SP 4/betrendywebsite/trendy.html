@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Trendy</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .navbar {
+            display: flex;
+            /* background-color: rgb(233, 194, 143); */
+            z-index: 1;
+            opacity: 0.9;
+
+            position: fixed;
+            top: 0px;
+
+
+        }
+
+        /* #header{
+            position:sticky;
+            top: 0%;
+        } */
+
+
+        .navbar ul {
+            display: flex;
+
+
+        }
+
+        .navbar ul li {
+            list-style: none;
+            padding: 12px 13px;
+            color: white;
+
+
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            border: 2px;
+            padding: 9px;
+            background-color: rgb(12, 11, 11);
+            color: white;
+            border-radius: 12px;
+
+        }
+
+        .navbar ul li a:hover {
+            color: black;
+            background-color: rgb(184, 198, 243);
+        }
+
+        .WELCOME {
+            height: 400px;
+            width: 100%;
+            display: flex;
+            color: rgb(3, 3, 19);
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            font-family: 'Reggae One', cursive;
+            font-size: px;
+
+        }
+
+        .search {
+            border: 2px solid red
+        }
+
+
+
+        .WELCOME {
+            content: "";
+            /* position: absolute; */
+            background: url(dress2.jpg) no-repeat center center/cover;
+            opacity: 0.8;
+            z-index: -1
+        }
+
+        #HEADING1 {
+            font-size: 43px;
+            color: rgba(10, 3, 78, 0.993);
+            z-index: 2;
+            text-shadow: 5PX 2PX rgba(123, 135, 245, 0.521);
+        }
+        #welcomepara{
+            font-size: 17px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .content {
+            display: flex;
+            /* margin: 420px 0px; */
+            font-size: 20px;
+            font-family: 'KoHo', sans-serif;
+            text-align: center;
+
+
+        }
+
+        #content1 {
+            height: 400px;
+            width: 650px;
+            /* border: 2px solid green; */
+            margin: 20px 20px;
+            border-radius: 10px;
+            background-color: rgb(219, 234, 235);
+            text-align: center;
+            box-shadow: 10PX 10PX 10px rgb(87, 106, 116);
+
+        }
+
+        #content1:hover {
+            transition-property: all;
+            transition-duration: 2s;
+            transform: scale(1.1);
+        }
+
+        #content1 img {
+            height: 170px;
+            width: 280px;
+            margin: 10px;
+            margin-left: 40px;
+
+
+        }
+
+        #content2 {
+            height: 400px;
+            width: 650px;
+            margin: 20px 20px;
+            /* border: 2px solid green; */
+            background-color: rgb(219, 234, 235);
+            box-shadow: 10PX 10PX 10px rgb(87, 106, 116);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        #content2:hover {
+            transition-property: all;
+            transition-duration: 2s;
+            transform: scale(1.1);
+        }
+
+        #content2 img {
+            height: 170px;
+            width: 280px;
+            margin: 10px;
+            margin-left: 40px;
+
+
+        }
+
+        #content3 {
+            height: 400px;
+            width: 650px;
+            margin: 20px 20px;
+            /* border: 2px solid green; */
+            background-color: rgb(219, 234, 235);
+            box-shadow: 10PX 10PX 10px rgb(87, 106, 116);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        #content3:hover {
+            transition-property: all;
+            transition-duration: 1.5s;
+            transform: scale(1.1);
+        }
+
+        #content3 img {
+            height: 170px;
+            width: 250px;
+            margin: 10px;
+            margin-left: 40px;
+
+        }
+
+        .collection {
+            text-align: center;
+            font-size: 32px;
+            font-family: 'Playball', cursive;
+            text-shadow: 5PX 1PX rgb(182, 176, 176);
+            /* padding: 12px; */
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* background-color: aqua; */
+            margin-top: 0px;
+        }
+
+        .brandpartner {
+            height: 450px;
+            width: 100%;
+            background: url(background.jpg) no-repeat center center/cover;
+            opacity: 0.8;
+        }
+
+        .brandpartner img {
+            align-content: center;
+            height: 150px;
+            width: 200px;
+            margin: 43px;
+        }
+
+        .brandpartner img:hover {
+            transition-property: all;
+            transition-duration: 1sec;
+            transform: scale(1.2);
+        }
+
+        .brands {
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Playball', cursive;
+            text-shadow: 5PX 1PX rgb(182, 176, 176);
+
+        }
+
+        .form {
+            align-content: center;
+            height: 400px;
+            width: 100%;
+
+            font-size: 30px;
+            padding: 30px;
+
+            background: url(background3.webp) no-repeat center center/cover;
+            opacity: 0.8;
+
+        }
+
+        #heading {
+            font-size: 40px;
+            text-align: center;
+            text-shadow: 5PX 1PX rgb(175, 172, 172);
+            font-family: 'Playball', cursive;
+        }
+
+        #para1 {
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Playball', cursive;
+        }
+
+        .form input {
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            margin-left: 550px;
+            color: black;
+
+            /* justify-content: center; */
+
+            font-size: 30px;
+        }
+
+        .form button {
+            font-size: 30px;
+            margin-left: 550px;
+            width: 370px;
+            text-shadow: 3PX 1PX rgb(102, 96, 96);
+
+        }
+
+        .form button:hover {
+            background-color: rgb(224, 198, 165);
+        }
+        .footer{
+            height: 100px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+        }
+        .footer .contact{
+            text-align: right;
+        }
+        .footer .COPYRIGHT{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="home">
+            <nav class="navigation" id="header">
+                <div class="navbar" id="navigations">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#brand">Brand Partners</a></li>
+                        <li><a href="#signup">Sign Up</a></li>
+                    </ul>
+
+                </div>
+
+            </nav>
+
+
+            <DIV class="WELCOME">
+
+                <H2 id="HEADING1">WELCOME TO THE BE TRENDY PLATFORM!</H2>
+
+                <P id="welcomepara">Hola Trend Seekers! Welcome to the Be Trendy platform . Fashion is the part of the daily life which changes all the time ,with all the events. We create finery to get you organised and
+                styled in the clothes you already own and love. So set your wishlist and fill your wardrobe gaps .Lets fix a meeting with your choices!!.
+            </P>
+
+            </DIV>
+        </div>
+    </header>
+
+    <div class="collection" id="collections">
+        <h2>Collections</h2>
+    </div>
+    <div class="content">
+
+        <div id="content1">
+
+            <img src="Women.webp">
+            <h3 id="women">Women's wear</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, asperiores. Libero, atque, nulla
+                mollitia voluptatibus rerum alias, saepe eos dicta reprehenderit animi rem. Enim iusto ipsam harum
+                nostrum veritatis assumenda fugiat totam at illum?</p>
+
+        </div>
+        <div id="content2">
+            <img src="Men.jpg">
+            <h3 id="men">Men's wear</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, asperiores. Libero, atque, nulla
+                mollitia voluptatibus rerum alias, saepe eos dicta reprehenderit animi rem. Enim iusto ipsam harum
+                nostrum veritatis assumenda fugiat totam at illum?</p>
+
+
+
+        </div>
+        <div id="content3">
+            <img src="Kids.jpg">
+            <h3 id="kids">Kid's wear</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, asperiores. Libero, atque, nulla
+                mollitia voluptatibus rerum alias, saepe eos dicta reprehenderit animi rem. Enim iusto ipsam harum
+                nostrum veritatis assumenda fugiat totam at illum?</p>
+
+
+
+        </div>
+    </div>
+    <div class="brands" id="brand">
+        <h2>Brand Partners</h2>
+
+    </div>
+    <div class="brandpartner">
+        <a href="gucci.html" target="_blank"><img src="logo1.jpg" alt=""></a>
+        <a href="allensolly.html" target="_blank"> <img src="allensolly.jpg" alt=""></a>
+        <a href="peter.html" target="_blank"> <img src="peter.png" alt=""></a>
+        <a href="zara.html" target="_blank"> <img src="logo4.png" alt=""></a>
+        <a href="kidspeak.html" target="_blank"> <img src="logo5.jpg" alt=""></a>
+        <a href="mothercare.html" target="_blank"> <img src="logo6.jpg" alt=""></a>
+        <a href="levis.html" target="_blank"> <img src="logo2.png" alt=""></a>
+        <a href="mango.html" target="_blank"> <img src="logo7.png" alt=""></a>
+        <a href="young.html" target="_blank"> <img src="logo8.jpg" alt=""></a>
+        <a href="tommy.html" target="_blank"> <img src="logo9.png" alt=""></a>
+    </div>
+    <div id="signup">
+        <h2 id="heading">SignUp for Free </h2>
+        <p id="para1">To get regular notifications for sale and get free gift voucher on every order!! </p>
+        <div class="form">
+            <form action="">
+                <input type="text" placeholder="Enter your name ">
+                <input type="number" placeholder="Enter your Phonenumber">
+                <input type="email" placeholder="Enter your email Id ">
+                <input type="text" placeholder="Enter your Address">
+                <button>Submit</button>
+
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+    <footer class="contact">For more queries contact us at:<BR>
+        999999999<BR>
+        betrendy@gmail.com
+        <div class="COPYRIGHT">
+        Copyright registered</footer>
+       </div>
+        </div>
+        
+</body>
+
+</html>

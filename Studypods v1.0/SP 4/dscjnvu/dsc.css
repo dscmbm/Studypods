@@ -1,0 +1,147 @@
+
+span{
+    padding: 5px
+}
+.container{
+    width:fit-content;
+    border: 3px solid rgb(240, 231, 240);
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+p{
+    font-size: 24px;
+  
+}
+.yes p a:link{
+    color: white;
+}
+.block{
+    width:initial;
+    border: 3px solid rgb(240, 231, 240);
+    background-color: rgb(22, 22, 22);
+    display: flex;
+   
+
+}
+.yes{
+    background-color: black;
+    padding:24px;
+    margin-left:100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    nav-right:auto;
+  }
+li{
+    display: inline;
+    
+    float:left;
+    
+}
+li a{
+    background-color:black;
+    display:block;
+    padding: 15px;
+    color:white;
+    text-decoration:none;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    color:white;
+    
+  }
+
+  .bac{
+    background-image: url("https://media-eng.dhakatribune.com/uploads/2014/08/7mm-1.jpg");
+    width: 1320px;
+    height: 373px;  
+}
+.bac .text{
+    position:absolute;
+    top:50%;
+    color:blue;
+}
+.ho{
+    padding: 32px 14px;
+    margin: 10px 2px;
+}
+.but{
+    font-size:large ;
+   
+    
+   /* background-color:blue; 
+    border-radius: 50%;
+    height: fit-content;
+    color:white;b*/
+    
+    position:relative;
+    top:10%;
+    left:50%;
+    border-color: grey;
+    padding: 0px 0px;
+    padding-inline-end: 0px;
+    padding-bottom: -20px;
+    padding-top: 0px;
+    
+    
+ }
+    
+
+ 
+.block{
+    background-color:rgb(67, 67, 71);
+    padding:14px;
+    border-color:none ;
+}
+ .join{
+    align-content: center;
+    color: cornsilk;
+    background-color:blue ;
+    width: 150px;
+    height:40px;
+    margin-left:550px;
+    caret-color: grey;
+    text-align: center;
+    cursor: pointer;
+
+}
+.past{
+    display: inline-block;
+    width:fit-content;
+    border: 3px solid rgb(240, 231, 240);
+    justify-content: center;
+    padding:24px;
+    margin-block-end: 24px;
+    margin-inline-end: 15px;
+    border-radius: 14px;
+
+}
+h1{
+    color:teal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
