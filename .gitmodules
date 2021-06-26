@@ -7,3 +7,12 @@
 [submodule "Studypods v1.0/SP 5/Seek-and-Tech"]
 	path = Studypods v1.0/SP 5/Seek-and-Tech
 	url = https://github.com/cyberskull99297/Seek-and-Tech.git
+[submodule "Studypods v1.0/SP 5/Marvel"]
+	path = Studypods v1.0/SP 5/Marvel
+	url = https://github.com/cyberskull99297/Marvel.git
+[submodule "Studypods v1.0/SP 5/Flexbox-Tut1"]
+	path = Studypods v1.0/SP 5/Flexbox-Tut1
+	url = https://github.com/cyberskull99297/Flexbox-Tut1.git
+[submodule "Studypods v1.0/SP 5/Flexbox-tutorial-3"]
+	path = Studypods v1.0/SP 5/Flexbox-tutorial-3
+	url = https://github.com/cyberskull99297/Flexbox-tutorial-3.git
